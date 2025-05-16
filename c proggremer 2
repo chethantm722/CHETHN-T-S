@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int a=666;{
+        int *ptr=&a;
+        printf("the value of integer; %d\n",a);
+        printf("the memory address of integer; %d\n",ptr);
+    }
+}
